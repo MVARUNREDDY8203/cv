@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" width="device-width">
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <h2>Please Fill Your details</h2>
+        <p>
+            <form action="Contacts.html">
+                <label>Name: </label>
+                <input type="text" name="userName" maxlength="20" required>
+                <br><br>
+
+                <label>Email: </label>
+                <input type="email" name="userEmail" required>
+                <br><br>
+
+                <label>Phone Number: </label>
+                <input type="tel" name="userPhoneNumber" pattern="[6-9]{1}[0-9]{9}" required>
+                <br><br>
+
+                <label>Date of Birth: </label>
+                <input type="date" name="userDoB" required>
+                <br><br>
+
+                <label>Password: </label>
+                <input type="password" name="userPassword" minlength="8" maxlength="12" required>
+                <br><br>
+
+                <label>Your Profile Picture: </label>
+                <input type="file" name="userProfilePicture" accept=".txt">
+                <br><br>
+
+                <label>Your Website/LinkedIn: </label>
+                <input type="url" name="userWebsite">
+                <br><br>
+
+                <label>Hows the Josh:</label>
+                <input type="range" name="userJosh">
+                <br><br>
+
+                <input type="submit">
+            </form>
+        </p>
+    </body>
+</html>
